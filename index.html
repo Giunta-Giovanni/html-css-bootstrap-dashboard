@@ -50,7 +50,7 @@
 
      <!-- main with add button, list of book, checklist and f.a.q -->
      <main>
-        <div class="container text-center">
+        <div class="container">
             <div class="row row-cols-1">
                 <!-- 1 colonna -->
               <div class="col col-lg-8">
@@ -64,63 +64,374 @@
 
                     <!-- colonna inferiore con tabella lista  -->
                     <div class="col-12">
-                         <!-- book list -->
-    <table class="table table-striped">
 
-        <!-- table header -->
-        <thead>
-            <tr>
-            <!-- title -->
-            <th scope="col">Titolo</th>
+                        <!-- book list -->
+                        <table class="table table-striped">
 
-            <!-- lending date -->
-            <th scope="col" class="d-none d-md-table-cell">Data prestito</th>
+                            <!-- table header -->
+                            <thead>
+                                <tr>
+                                <!-- title -->
+                                <th scope="col">Titolo</th>
 
-            <!-- status -->
-            <th scope="col">Stato</th>
+                                <!-- lending date -->
+                                <th scope="col" class="d-none d-md-table-cell">Data prestito</th>
 
-            <!-- actions -->
-            <th scope="col">Azioni</th>
-            </tr>
-        </thead>
+                                <!-- status -->
+                                <th scope="col">Stato</th>
 
-        <!-- table body -->
-        <tbody>
-            <tr>
-            <!-- title -->
-            <td>I pilastri della terra</td>
+                                <!-- actions -->
+                                <th scope="col">Azioni</th>
+                                </tr>
+                            </thead>
 
-            <!-- lending date -->
-            <td class="d-none d-md-table-cell">
-                -
-            </td>
+                            <!-- table body -->
+                            <tbody>
 
-            <!-- Status -->
-            <td> 
-                <span class="badge text-bg-success">
-                    Disponibile
-                </span>
-            </td>
+                                    <!-- book -->
+                                <tr>
+                                    <!-- title -->
+                                    <td class="book">I pilastri della terra</td>
 
-            <!-- actions -->
-            <td>
-                <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
-                    <i class="fa-solid fa-pencil"></i>
-                </a>
-                <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
-                    <i class="fa-solid fa-trash"></i>
-                </a>
-            </td>
-            </tr>
-        </tbody>
-      </table>
+                                    <!-- lending date -->
+                                    <td class="d-none d-md-table-cell">
+                                        -
+                                    </td>
+
+                                    <!-- Status -->
+                                    <td> 
+                                        <span class="badge text-bg-success">
+                                            Disponibile
+                                        </span>
+                                    </td>
+
+                                    <!-- actions -->
+                                    <td>
+                                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                                            <i class="fa-solid fa-pencil"></i>
+                                        </a>
+                                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                                            <i class="fa-solid fa-trash"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                                    <!-- book -->
+                                <tr>
+                                    <!-- title -->
+                                    <td class="book">I promessi sposi</td>
+
+                                    <!-- lending date -->
+                                    <td class="d-none d-md-table-cell">
+                                        -
+                                    </td>
+
+                                    <!-- Status -->
+                                    <td> 
+                                        <span class="badge text-bg-success">
+                                            Disponibile
+                                        </span>
+                                    </td>
+
+                                    <!-- actions -->
+                                    <td>
+                                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                                            <i class="fa-solid fa-pencil"></i>
+                                        </a>
+                                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                                            <i class="fa-solid fa-trash"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+
+                                <!-- book -->
+                                <tr>
+                                    <!-- title -->
+                                    <td class="book">Il signore degli anelli</td>
+
+                                    <!-- lending date -->
+                                    <td class="d-none d-md-table-cell">
+                                        18/10/2023
+                                    </td>
+
+                                    <!-- Status -->
+                                    <td> 
+                                        <span class="badge text-bg-warning text-light">
+                                            In prestito
+                                        </span>
+                                    </td>
+
+                                    <!-- actions -->
+                                    <td>
+                                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                                            <i class="fa-solid fa-pencil"></i>
+                                        </a>
+                                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                                            <i class="fa-solid fa-trash"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+
+                                <!-- book -->
+                                <tr>
+                                    <!-- title -->
+                                    <td class="book">Harry potter e la pietra filosofale</td>
+
+                                    <!-- lending date -->
+                                    <td class="d-none d-md-table-cell">
+                                        -
+                                    </td>
+
+                                    <!-- Status -->
+                                    <td> 
+                                        <span class="badge text-bg-success">
+                                            Disponibile
+                                        </span>
+                                    </td>
+
+                                    <!-- actions -->
+                                    <td>
+                                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                                            <i class="fa-solid fa-pencil"></i>
+                                        </a>
+                                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                                            <i class="fa-solid fa-trash"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+
+                                <!-- book -->
+                                <tr>
+                                    <!-- title -->
+                                    <td class="book">Il codice Da Vinci</td>
+
+                                    <!-- lending date -->
+                                    <td class="d-none d-md-table-cell">
+                                        -
+                                    </td>
+
+                                    <!-- Status -->
+                                    <td> 
+                                        <span class="badge text-bg-danger">
+                                            Non disponibile
+                                        </span>
+                                    </td>
+
+                                    <!-- actions -->
+                                    <td>
+                                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                                            <i class="fa-solid fa-pencil"></i>
+                                        </a>
+                                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                                            <i class="fa-solid fa-trash"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+
+                                <!-- book -->
+                                <tr class="book">
+                                    <!-- title -->
+                                    <td>Shining</td>
+
+                                    <!-- lending date -->
+                                    <td class="d-none d-md-table-cell">
+                                        -
+                                    </td>
+
+                                    <!-- Status -->
+                                    <td> 
+                                        <span class="badge text-bg-success">
+                                            Disponibile
+                                        </span>
+                                    </td>
+
+                                    <!-- actions -->
+                                    <td>
+                                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                                            <i class="fa-solid fa-pencil"></i>
+                                        </a>
+                                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                                            <i class="fa-solid fa-trash"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+
+                                <!-- book -->
+                                <tr>
+                                    <!-- title -->
+                                    <td class="book">La divina commedia</td>
+
+                                    <!-- lending date -->
+                                    <td class="d-none d-md-table-cell">
+                                        21/09/2023
+                                    </td>
+
+                                    <!-- Status -->
+                                    <td> 
+                                        <span class="badge text-bg-warning text-light">
+                                            In prestito
+                                        </span>
+                                    </td>
+
+                                    <!-- actions -->
+                                    <td>
+                                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                                            <i class="fa-solid fa-pencil"></i>
+                                        </a>
+                                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                                            <i class="fa-solid fa-trash"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+
+                                <!-- book -->
+                                <tr>
+                                    <!-- title -->
+                                    <td class="book">Il trono di spade</td>
+
+                                    <!-- lending date -->
+                                    <td class="d-none d-md-table-cell">
+                                        -
+                                    </td>
+
+                                    <!-- Status -->
+                                    <td> 
+                                        <span class="badge text-bg-success">
+                                            Disponibile
+                                        </span>
+                                    </td>
+
+                                    <!-- actions -->
+                                    <td>
+                                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                                            <i class="fa-solid fa-pencil"></i>
+                                        </a>
+                                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                                            <i class="fa-solid fa-trash"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+
+                                <!-- book -->
+                                <tr>
+                                    <!-- title -->
+                                    <td class="book">Il mondo di Sofia</td>
+
+                                    <!-- lending date -->
+                                    <td class="d-none d-md-table-cell">
+                                        -
+                                    </td>
+
+                                    <!-- Status -->
+                                    <td> 
+                                        <span class="badge text-bg-danger">
+                                            Non disponibile
+                                        </span>
+                                    </td>
+
+                                    <!-- actions -->
+                                    <td>
+                                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                                            <i class="fa-solid fa-pencil"></i>
+                                        </a>
+                                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                                            <i class="fa-solid fa-trash"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+
+                                <!-- book -->
+                                <tr>
+                                    <!-- title -->
+                                    <td class="book">Le cronache di Narnia: il leone, la strega e l'armadio</td>
+
+                                    <!-- lending date -->
+                                    <td class="d-none d-md-table-cell">
+                                        25/07/2023
+                                    </td>
+
+                                    <!-- Status -->
+                                    <td> 
+                                        <span class="badge text-bg-warning text-light">
+                                            In prestito
+                                        </span>
+                                    </td>
+
+                                    <!-- actions -->
+                                    <td>
+                                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                                            <i class="fa-solid fa-pencil"></i>
+                                        </a>
+                                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                                            <i class="fa-solid fa-trash"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <!-- book -->
+                                <tr>
+                                    <!-- title -->
+                                    <td class="book">Il piccolo principe</td>
+
+                                    <!-- lending date -->
+                                    <td class="d-none d-md-table-cell">
+                                        -
+                                    </td>
+
+                                    <!-- Status -->
+                                    <td> 
+                                        <span class="badge text-bg-success">
+                                            Disponibile
+                                        </span>
+                                    </td>
+
+                                    <!-- actions -->
+                                    <td>
+                                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                                            <i class="fa-solid fa-pencil"></i>
+                                        </a>
+                                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                                            <i class="fa-solid fa-trash"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+
+                                <!-- book -->
+                                <tr>
+                                    <!-- title -->
+                                    <td class="book">La storia infinita</td>
+
+                                    <!-- lending date -->
+                                    <td class="d-none d-md-table-cell">
+                                        -
+                                    </td>
+
+                                    <!-- Status -->
+                                    <td> 
+                                        <span class="badge text-bg-success">
+                                            Disponibile
+                                        </span>
+                                    </td>
+
+                                    <!-- actions -->
+                                    <td>
+                                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                                            <i class="fa-solid fa-pencil"></i>
+                                        </a>
+                                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                                            <i class="fa-solid fa-trash"></i>
+                                        </a>
+                                    </td>
+                                </tr>                                
+                            </tbody>
+
+                        </table>
+                    
                     </div>
                 </div>
               </div>
 
 
               <!-- 2 colonna -->
-              <div class="col col-lg-4">
+              <div class="col col-lg-auto">
 
                 <!-- utility -->
                 <div class="row">

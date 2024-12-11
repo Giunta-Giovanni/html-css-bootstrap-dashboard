@@ -15,12 +15,13 @@
     background-color: aqua;
     height: 100px;
 }
+ */
 
-header .navbar-brand img{
-    height: 50px;
-} */
 
 /* GENERAL */
+header .navbar-brand img{
+    height: 50px;
+}
 .navbar-toggler{ 
    border: 1px solid rgba(255, 255, 255, 0.507);
    color: white;

@@ -64,7 +64,56 @@
 
                     <!-- colonna inferiore con tabella lista  -->
                     <div class="col-12">
-                        inserire la tabella
+                         <!-- book list -->
+    <table class="table table-striped">
+
+        <!-- table header -->
+        <thead>
+            <tr>
+            <!-- title -->
+            <th scope="col">Titolo</th>
+
+            <!-- lending date -->
+            <th scope="col" class="d-none d-md-table-cell">Data prestito</th>
+
+            <!-- status -->
+            <th scope="col">Stato</th>
+
+            <!-- actions -->
+            <th scope="col">Azioni</th>
+            </tr>
+        </thead>
+
+        <!-- table body -->
+        <tbody>
+            <tr>
+            <!-- title -->
+            <td>I pilastri della terra</td>
+
+            <!-- lending date -->
+            <td class="d-none d-md-table-cell">
+                -
+            </td>
+
+            <!-- Status -->
+            <td> 
+                <span class="badge text-bg-success">
+                    Disponibile
+                </span>
+            </td>
+
+            <!-- actions -->
+            <td>
+                <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                    <i class="fa-solid fa-pencil"></i>
+                </a>
+                <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                    <i class="fa-solid fa-trash"></i>
+                </a>
+            </td>
+            </tr>
+        </tbody>
+      </table>
                     </div>
                 </div>
               </div>

@@ -1,5 +1,5 @@
 
-BOOTSTRAP DEBUG*/
+/* BOOTSTRAP DEBUG */
 [class^='container'] {
     /* border: 1px dashed black; */
     /* background-color: lightblue; */
@@ -7,7 +7,7 @@ BOOTSTRAP DEBUG*/
 }
 
 [class^='row'] {
-    border: 1px dashed red;
+    /* border: 1px dashed red; */
 }
 
 [class^='col'] {

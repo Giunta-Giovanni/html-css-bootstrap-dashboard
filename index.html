@@ -50,453 +50,502 @@
 
      <!-- main with add button, list of book, checklist and f.a.q -->
      <main>
-        <div class="container">
+        <div class="container my-5">
             <div class="row row-cols-1">
                 <!-- 1 colonna -->
-              <div class="col col-lg-9">
+                <div class="col col-lg-9">
 
-                <!-- libreria -->
-                <div class="row">
-                        <!-- colonna superiore per aggiunge libri -->
-                    <div class="col-12">
-                        inserire titolo con bottone
-                    </div>
+                    <!-- libreria -->
+                    <div class="row">
+                            <!-- colonna superiore per aggiunge libri -->
+                        <div class="col-12">
+                            inserire titolo con bottone
+                        </div>
 
-                    <!-- colonna inferiore con tabella lista  -->
-                    <div class="col-12">
+                        <!-- colonna inferiore con tabella lista  -->
+                        <div class="col-12">
 
-                        <!-- book list -->
-                        <table class="table table-striped">
+                            <!-- book list -->
+                            <table class="table table-striped">
 
-                            <!-- table header -->
-                            <thead>
-                                <tr>
-                                <!-- title -->
-                                <th scope="col">Titolo</th>
+                                <!-- table header -->
+                                <thead>
+                                    <tr>
+                                    <!-- title -->
+                                    <th scope="col">Titolo</th>
 
-                                <!-- lending date -->
-                                <th scope="col" class="d-none d-md-table-cell">Data prestito</th>
+                                    <!-- lending date -->
+                                    <th scope="col" class="d-none d-md-table-cell">Data prestito</th>
 
-                                <!-- status -->
-                                <th scope="col">Stato</th>
+                                    <!-- status -->
+                                    <th scope="col">Stato</th>
 
-                                <!-- actions -->
-                                <th scope="col">Azioni</th>
-                                </tr>
-                            </thead>
+                                    <!-- actions -->
+                                    <th scope="col">Azioni</th>
+                                    </tr>
+                                </thead>
 
-                            <!-- table body -->
-                            <tbody>
+                                <!-- table body -->
+                                <tbody>
+
+                                        <!-- book -->
+                                    <tr>
+                                        <!-- title -->
+                                        <td class="book">I pilastri della terra</td>
+
+                                        <!-- lending date -->
+                                        <td class="d-none d-md-table-cell">
+                                            -
+                                        </td>
+
+                                        <!-- Status -->
+                                        <td> 
+                                            <span class="badge text-bg-success">
+                                                Disponibile
+                                            </span>
+                                        </td>
+
+                                        <!-- actions -->
+                                        <td>
+                                            <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                                                <i class="fa-solid fa-pencil"></i>
+                                            </a>
+                                            <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                                                <i class="fa-solid fa-trash"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                        <!-- book -->
+                                    <tr>
+                                        <!-- title -->
+                                        <td class="book">I promessi sposi</td>
+
+                                        <!-- lending date -->
+                                        <td class="d-none d-md-table-cell">
+                                            -
+                                        </td>
+
+                                        <!-- Status -->
+                                        <td> 
+                                            <span class="badge text-bg-success">
+                                                Disponibile
+                                            </span>
+                                        </td>
+
+                                        <!-- actions -->
+                                        <td>
+                                            <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                                                <i class="fa-solid fa-pencil"></i>
+                                            </a>
+                                            <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                                                <i class="fa-solid fa-trash"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
 
                                     <!-- book -->
-                                <tr>
-                                    <!-- title -->
-                                    <td class="book">I pilastri della terra</td>
+                                    <tr>
+                                        <!-- title -->
+                                        <td class="book">Il signore degli anelli</td>
 
-                                    <!-- lending date -->
-                                    <td class="d-none d-md-table-cell">
-                                        -
-                                    </td>
+                                        <!-- lending date -->
+                                        <td class="d-none d-md-table-cell">
+                                            18/10/2023
+                                        </td>
 
-                                    <!-- Status -->
-                                    <td> 
-                                        <span class="badge text-bg-success">
-                                            Disponibile
-                                        </span>
-                                    </td>
+                                        <!-- Status -->
+                                        <td> 
+                                            <span class="badge text-bg-warning text-light">
+                                                In prestito
+                                            </span>
+                                        </td>
 
-                                    <!-- actions -->
-                                    <td>
-                                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
-                                            <i class="fa-solid fa-pencil"></i>
-                                        </a>
-                                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
-                                            <i class="fa-solid fa-trash"></i>
-                                        </a>
-                                    </td>
-                                </tr>
+                                        <!-- actions -->
+                                        <td>
+                                            <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                                                <i class="fa-solid fa-pencil"></i>
+                                            </a>
+                                            <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                                                <i class="fa-solid fa-trash"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+
                                     <!-- book -->
-                                <tr>
-                                    <!-- title -->
-                                    <td class="book">I promessi sposi</td>
+                                    <tr>
+                                        <!-- title -->
+                                        <td class="book">Harry potter e la pietra filosofale</td>
 
-                                    <!-- lending date -->
-                                    <td class="d-none d-md-table-cell">
-                                        -
-                                    </td>
+                                        <!-- lending date -->
+                                        <td class="d-none d-md-table-cell">
+                                            -
+                                        </td>
 
-                                    <!-- Status -->
-                                    <td> 
-                                        <span class="badge text-bg-success">
-                                            Disponibile
-                                        </span>
-                                    </td>
+                                        <!-- Status -->
+                                        <td> 
+                                            <span class="badge text-bg-success">
+                                                Disponibile
+                                            </span>
+                                        </td>
 
-                                    <!-- actions -->
-                                    <td>
-                                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
-                                            <i class="fa-solid fa-pencil"></i>
-                                        </a>
-                                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
-                                            <i class="fa-solid fa-trash"></i>
-                                        </a>
-                                    </td>
-                                </tr>
+                                        <!-- actions -->
+                                        <td>
+                                            <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                                                <i class="fa-solid fa-pencil"></i>
+                                            </a>
+                                            <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                                                <i class="fa-solid fa-trash"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
 
-                                <!-- book -->
-                                <tr>
-                                    <!-- title -->
-                                    <td class="book">Il signore degli anelli</td>
+                                    <!-- book -->
+                                    <tr>
+                                        <!-- title -->
+                                        <td class="book">Il codice Da Vinci</td>
 
-                                    <!-- lending date -->
-                                    <td class="d-none d-md-table-cell">
-                                        18/10/2023
-                                    </td>
+                                        <!-- lending date -->
+                                        <td class="d-none d-md-table-cell">
+                                            -
+                                        </td>
 
-                                    <!-- Status -->
-                                    <td> 
-                                        <span class="badge text-bg-warning text-light">
-                                            In prestito
-                                        </span>
-                                    </td>
+                                        <!-- Status -->
+                                        <td> 
+                                            <span class="badge text-bg-danger">
+                                                Non disponibile
+                                            </span>
+                                        </td>
 
-                                    <!-- actions -->
-                                    <td>
-                                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
-                                            <i class="fa-solid fa-pencil"></i>
-                                        </a>
-                                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
-                                            <i class="fa-solid fa-trash"></i>
-                                        </a>
-                                    </td>
-                                </tr>
+                                        <!-- actions -->
+                                        <td>
+                                            <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                                                <i class="fa-solid fa-pencil"></i>
+                                            </a>
+                                            <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                                                <i class="fa-solid fa-trash"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
 
-                                <!-- book -->
-                                <tr>
-                                    <!-- title -->
-                                    <td class="book">Harry potter e la pietra filosofale</td>
+                                    <!-- book -->
+                                    <tr class="book">
+                                        <!-- title -->
+                                        <td>Shining</td>
 
-                                    <!-- lending date -->
-                                    <td class="d-none d-md-table-cell">
-                                        -
-                                    </td>
+                                        <!-- lending date -->
+                                        <td class="d-none d-md-table-cell">
+                                            -
+                                        </td>
 
-                                    <!-- Status -->
-                                    <td> 
-                                        <span class="badge text-bg-success">
-                                            Disponibile
-                                        </span>
-                                    </td>
+                                        <!-- Status -->
+                                        <td> 
+                                            <span class="badge text-bg-success">
+                                                Disponibile
+                                            </span>
+                                        </td>
 
-                                    <!-- actions -->
-                                    <td>
-                                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
-                                            <i class="fa-solid fa-pencil"></i>
-                                        </a>
-                                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
-                                            <i class="fa-solid fa-trash"></i>
-                                        </a>
-                                    </td>
-                                </tr>
+                                        <!-- actions -->
+                                        <td>
+                                            <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                                                <i class="fa-solid fa-pencil"></i>
+                                            </a>
+                                            <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                                                <i class="fa-solid fa-trash"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
 
-                                <!-- book -->
-                                <tr>
-                                    <!-- title -->
-                                    <td class="book">Il codice Da Vinci</td>
+                                    <!-- book -->
+                                    <tr>
+                                        <!-- title -->
+                                        <td class="book">La divina commedia</td>
 
-                                    <!-- lending date -->
-                                    <td class="d-none d-md-table-cell">
-                                        -
-                                    </td>
+                                        <!-- lending date -->
+                                        <td class="d-none d-md-table-cell">
+                                            21/09/2023
+                                        </td>
 
-                                    <!-- Status -->
-                                    <td> 
-                                        <span class="badge text-bg-danger">
-                                            Non disponibile
-                                        </span>
-                                    </td>
+                                        <!-- Status -->
+                                        <td> 
+                                            <span class="badge text-bg-warning text-light">
+                                                In prestito
+                                            </span>
+                                        </td>
 
-                                    <!-- actions -->
-                                    <td>
-                                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
-                                            <i class="fa-solid fa-pencil"></i>
-                                        </a>
-                                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
-                                            <i class="fa-solid fa-trash"></i>
-                                        </a>
-                                    </td>
-                                </tr>
+                                        <!-- actions -->
+                                        <td>
+                                            <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                                                <i class="fa-solid fa-pencil"></i>
+                                            </a>
+                                            <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                                                <i class="fa-solid fa-trash"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
 
-                                <!-- book -->
-                                <tr class="book">
-                                    <!-- title -->
-                                    <td>Shining</td>
+                                    <!-- book -->
+                                    <tr>
+                                        <!-- title -->
+                                        <td class="book">Il trono di spade</td>
 
-                                    <!-- lending date -->
-                                    <td class="d-none d-md-table-cell">
-                                        -
-                                    </td>
+                                        <!-- lending date -->
+                                        <td class="d-none d-md-table-cell">
+                                            -
+                                        </td>
 
-                                    <!-- Status -->
-                                    <td> 
-                                        <span class="badge text-bg-success">
-                                            Disponibile
-                                        </span>
-                                    </td>
+                                        <!-- Status -->
+                                        <td> 
+                                            <span class="badge text-bg-success">
+                                                Disponibile
+                                            </span>
+                                        </td>
 
-                                    <!-- actions -->
-                                    <td>
-                                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
-                                            <i class="fa-solid fa-pencil"></i>
-                                        </a>
-                                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
-                                            <i class="fa-solid fa-trash"></i>
-                                        </a>
-                                    </td>
-                                </tr>
+                                        <!-- actions -->
+                                        <td>
+                                            <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                                                <i class="fa-solid fa-pencil"></i>
+                                            </a>
+                                            <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                                                <i class="fa-solid fa-trash"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
 
-                                <!-- book -->
-                                <tr>
-                                    <!-- title -->
-                                    <td class="book">La divina commedia</td>
+                                    <!-- book -->
+                                    <tr>
+                                        <!-- title -->
+                                        <td class="book">Il mondo di Sofia</td>
 
-                                    <!-- lending date -->
-                                    <td class="d-none d-md-table-cell">
-                                        21/09/2023
-                                    </td>
+                                        <!-- lending date -->
+                                        <td class="d-none d-md-table-cell">
+                                            -
+                                        </td>
 
-                                    <!-- Status -->
-                                    <td> 
-                                        <span class="badge text-bg-warning text-light">
-                                            In prestito
-                                        </span>
-                                    </td>
+                                        <!-- Status -->
+                                        <td> 
+                                            <span class="badge text-bg-danger">
+                                                Non disponibile
+                                            </span>
+                                        </td>
 
-                                    <!-- actions -->
-                                    <td>
-                                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
-                                            <i class="fa-solid fa-pencil"></i>
-                                        </a>
-                                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
-                                            <i class="fa-solid fa-trash"></i>
-                                        </a>
-                                    </td>
-                                </tr>
+                                        <!-- actions -->
+                                        <td>
+                                            <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                                                <i class="fa-solid fa-pencil"></i>
+                                            </a>
+                                            <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                                                <i class="fa-solid fa-trash"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
 
-                                <!-- book -->
-                                <tr>
-                                    <!-- title -->
-                                    <td class="book">Il trono di spade</td>
+                                    <!-- book -->
+                                    <tr>
+                                        <!-- title -->
+                                        <td class="book">Le cronache di Narnia: il leone, la strega e l'armadio</td>
 
-                                    <!-- lending date -->
-                                    <td class="d-none d-md-table-cell">
-                                        -
-                                    </td>
+                                        <!-- lending date -->
+                                        <td class="d-none d-md-table-cell">
+                                            25/07/2023
+                                        </td>
 
-                                    <!-- Status -->
-                                    <td> 
-                                        <span class="badge text-bg-success">
-                                            Disponibile
-                                        </span>
-                                    </td>
+                                        <!-- Status -->
+                                        <td> 
+                                            <span class="badge text-bg-warning text-light">
+                                                In prestito
+                                            </span>
+                                        </td>
 
-                                    <!-- actions -->
-                                    <td>
-                                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
-                                            <i class="fa-solid fa-pencil"></i>
-                                        </a>
-                                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
-                                            <i class="fa-solid fa-trash"></i>
-                                        </a>
-                                    </td>
-                                </tr>
+                                        <!-- actions -->
+                                        <td>
+                                            <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                                                <i class="fa-solid fa-pencil"></i>
+                                            </a>
+                                            <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                                                <i class="fa-solid fa-trash"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <!-- book -->
+                                    <tr>
+                                        <!-- title -->
+                                        <td class="book">Il piccolo principe</td>
 
-                                <!-- book -->
-                                <tr>
-                                    <!-- title -->
-                                    <td class="book">Il mondo di Sofia</td>
+                                        <!-- lending date -->
+                                        <td class="d-none d-md-table-cell">
+                                            -
+                                        </td>
 
-                                    <!-- lending date -->
-                                    <td class="d-none d-md-table-cell">
-                                        -
-                                    </td>
+                                        <!-- Status -->
+                                        <td> 
+                                            <span class="badge text-bg-success">
+                                                Disponibile
+                                            </span>
+                                        </td>
 
-                                    <!-- Status -->
-                                    <td> 
-                                        <span class="badge text-bg-danger">
-                                            Non disponibile
-                                        </span>
-                                    </td>
+                                        <!-- actions -->
+                                        <td>
+                                            <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                                                <i class="fa-solid fa-pencil"></i>
+                                            </a>
+                                            <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                                                <i class="fa-solid fa-trash"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
 
-                                    <!-- actions -->
-                                    <td>
-                                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
-                                            <i class="fa-solid fa-pencil"></i>
-                                        </a>
-                                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
-                                            <i class="fa-solid fa-trash"></i>
-                                        </a>
-                                    </td>
-                                </tr>
+                                    <!-- book -->
+                                    <tr>
+                                        <!-- title -->
+                                        <td class="book">La storia infinita</td>
 
-                                <!-- book -->
-                                <tr>
-                                    <!-- title -->
-                                    <td class="book">Le cronache di Narnia: il leone, la strega e l'armadio</td>
+                                        <!-- lending date -->
+                                        <td class="d-none d-md-table-cell">
+                                            -
+                                        </td>
 
-                                    <!-- lending date -->
-                                    <td class="d-none d-md-table-cell">
-                                        25/07/2023
-                                    </td>
+                                        <!-- Status -->
+                                        <td> 
+                                            <span class="badge text-bg-success">
+                                                Disponibile
+                                            </span>
+                                        </td>
 
-                                    <!-- Status -->
-                                    <td> 
-                                        <span class="badge text-bg-warning text-light">
-                                            In prestito
-                                        </span>
-                                    </td>
+                                        <!-- actions -->
+                                        <td>
+                                            <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                                                <i class="fa-solid fa-pencil"></i>
+                                            </a>
+                                            <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
+                                                <i class="fa-solid fa-trash"></i>
+                                            </a>
+                                        </td>
+                                    </tr>                                
+                                </tbody>
 
-                                    <!-- actions -->
-                                    <td>
-                                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
-                                            <i class="fa-solid fa-pencil"></i>
-                                        </a>
-                                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
-                                            <i class="fa-solid fa-trash"></i>
-                                        </a>
-                                    </td>
-                                </tr>
-                                <!-- book -->
-                                <tr>
-                                    <!-- title -->
-                                    <td class="book">Il piccolo principe</td>
-
-                                    <!-- lending date -->
-                                    <td class="d-none d-md-table-cell">
-                                        -
-                                    </td>
-
-                                    <!-- Status -->
-                                    <td> 
-                                        <span class="badge text-bg-success">
-                                            Disponibile
-                                        </span>
-                                    </td>
-
-                                    <!-- actions -->
-                                    <td>
-                                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
-                                            <i class="fa-solid fa-pencil"></i>
-                                        </a>
-                                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
-                                            <i class="fa-solid fa-trash"></i>
-                                        </a>
-                                    </td>
-                                </tr>
-
-                                <!-- book -->
-                                <tr>
-                                    <!-- title -->
-                                    <td class="book">La storia infinita</td>
-
-                                    <!-- lending date -->
-                                    <td class="d-none d-md-table-cell">
-                                        -
-                                    </td>
-
-                                    <!-- Status -->
-                                    <td> 
-                                        <span class="badge text-bg-success">
-                                            Disponibile
-                                        </span>
-                                    </td>
-
-                                    <!-- actions -->
-                                    <td>
-                                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
-                                            <i class="fa-solid fa-pencil"></i>
-                                        </a>
-                                        <a class="btn btn-outline-secondary btn-sm" href="#" role="button">
-                                            <i class="fa-solid fa-trash"></i>
-                                        </a>
-                                    </td>
-                                </tr>                                
-                            </tbody>
-
-                        </table>
-                    
+                            </table>
+                        
+                        </div>
                     </div>
                 </div>
-              </div>
 
+                <!-- 2 colonna -->
+                <div class="col col-lg-3">
 
-              <!-- 2 colonna -->
-              <div class="col col-lg-3">
+                    <!-- utility -->
+                    <div class="row">
 
-                <!-- utility -->
-                <div class="row">
+                        <!-- TODOLIST-->
+                        <div class="col-12 border rounded-3 mb-3 ">
 
-                    <!-- todolist -->
-                    <div class="col-12">
+                            <!-- row della todolist -->
+                            <div class="row">
 
-                        <!-- row della todolist -->
-                        <div class="row">
+                                <!-- col title -->
+                                <div class="col-12 bg-body-secondary  border-bottom border-dark border-opacity-25">
+                                    <h2 class="fw-light p-1">Todo</h2>
+                                </div>
 
-                            <!-- col title -->
-                            <div class="col-12 bg-body-secondary  border border-dark border-opacity-25">
-                                <h2 class="fw-light p-1">Todo</h2>
-                            </div>
+                                <!-- col checklist -->
+                                <div class="col-12">
 
-                            <!-- col checklist -->
-                            <div class="col-12 border border-secondary border-opacity-25">
+                                    <!-- row all item -->
+                                    <div class="row m-3">
 
-                                <!-- row all item -->
-                                <div class="row m-3">
-
-                                    <!-- 1st item -->
-                                    <div class="col-12 border border-secondary border-opacity-25 rounded-top px-3 py-2">
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                            <label class="form-check-label" for="flexCheckDefault">
-                                                Chiamare segreteria
-                                            </label>
+                                        <!-- 1st item -->
+                                        <div class="col-12 border border-secondary border-opacity-25 rounded-top px-3 py-2">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Chiamare segreteria
+                                                </label>
+                                            </div>
                                         </div>
-                                    </div>
 
-                                    <!-- 2nd item -->
-                                    <div class="col-12 border border-secondary border-opacity-25 px-3 py-2">
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                            <label class="form-check-label" for="flexCheckDefault">
-                                               Mandare avvisi prestiti scaduti
-                                            </label>
+                                        <!-- 2nd item -->
+                                        <div class="col-12 border border-secondary border-opacity-25 px-3 py-2">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                Mandare avvisi prestiti scaduti
+                                                </label>
+                                            </div>
                                         </div>
-                                    </div>
 
-                                    <!-- 3rd item -->
-                                    <div class="col-12 border border-secondary border-opacity-25 rounded-bottom px-3 py-2">
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                            <label class="form-check-label" for="flexCheckDefault">
-                                                Ordinare nuovi libri
-                                            </label>
+                                        <!-- 3rd item -->
+                                        <div class="col-12 border border-secondary border-opacity-25 rounded-bottom px-3 py-2">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Ordinare nuovi libri
+                                                </label>
+                                            </div>
                                         </div>
-                                    </div>
-                                </div>  
-                            </div>
-                        </div>     
-                    </div>
+                                    </div>  
+                                </div>
+                            </div>     
+                        </div>
 
-                    <!-- F.A.Q -->
-                    <div class="col-12">
-                        inserire la F.a.q
+                        <!-- F.A.Q -->
+                        <div class="col-12 border rounded-3 mb-3 ">
+
+                            <!-- row della F.A.Q -->
+                            <div class="row">
+
+                                <!-- col title -->
+                                <div class="col-12 bg-body-secondary  border-bottom border-dark border-opacity-25">
+                                    <h2 class="fw-light p-1">F.A.Q</h2>
+                                </div>
+
+                                <!-- col checklist -->
+                                <div class="col-12">
+
+                                    <!-- row all item -->
+                                    <div class="row m-3">
+
+                                        <!-- 1st item -->
+                                        <div class="col-12 px-1 py-2">
+                                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                                <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                                    Come aggiungere un nuovo libro?
+                                                    </button>
+                                                </h2>
+                                                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                                                </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                    Come posso accedere all'anagrafica utenti?
+                                                    </button>
+                                                </h2>
+                                                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                                </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                                    Posso usare questa dashboard da mobile?
+                                                    </button>
+                                                </h2>
+                                                <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                                </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>  
+                                </div>
+                            </div>     
+                        </div>
                     </div>
                 </div>
-              </div>
-
             </div>
-          </div>
-
+        </div>
      </main>
 
      <!-- footer empty with bg-black -->

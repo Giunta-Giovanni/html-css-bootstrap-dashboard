@@ -1,9 +1,9 @@
 
-/* BOOTSTRAP DEBUG*/
+BOOTSTRAP DEBUG*/
 [class^='container'] {
-    border: 1px dashed black;
-    background-color: lightblue;
-    min-height: 80vh;
+    /* border: 1px dashed black; */
+    /* background-color: lightblue; */
+    /* min-height: 80vh; */
 }
 
 [class^='row'] {
@@ -11,13 +11,20 @@
 }
 
 [class^='col'] {
-    border: 1px solid grey;
-    background-color: aqua;
-    height: 100px;
+    /* border: 1px solid grey; */
+    /* background-color: aqua; */
+    /* height: 100px; */
 }
 
+header .navbar-brand img{
+    height: 50px;
+}
 /* GENERAL */
+.navbar-toggler{ 
+   border: 1px solid rgba(255, 255, 255, 0.507);
+   color: white;
 
+}
 
 
 

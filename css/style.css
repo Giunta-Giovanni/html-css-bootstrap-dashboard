@@ -1,6 +1,6 @@
 
 /* BOOTSTRAP DEBUG */
-/* [class^='container'] {
+[class^='container'] {
     border: 1px dashed black;
     background-color: lightblue;
     min-height: 80vh;
@@ -12,10 +12,10 @@
 
 [class^='col'] {
     border: 1px solid grey;
-    background-color: aqua;
-    height: 100px;
+    /* background-color: aqua; */
+    /* height: 100px; */
 }
- */
+
 
 
 /* GENERAL */

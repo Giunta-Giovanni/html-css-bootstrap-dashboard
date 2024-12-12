@@ -1,20 +1,20 @@
 
 /* BOOTSTRAP DEBUG */
-[class^='container'] {
+/* [class^='container'] {
     border: 1px dashed black;
-    background-color: lightblue;
-    min-height: 80vh;
-}
+    background-color: lightblue; */
+    /* min-height: 80vh; */
+/* } */
 
-[class^='row'] {
+/* [class^='row'] {
     border: 1px dashed red;
-}
+} */
 
-[class^='col'] {
+/* [class^='col'] {
     border: 1px solid grey;
-    /* background-color: aqua; */
-    /* height: 100px; */
-}
+    background-color: aqua;
+    height: 100px;
+} */
 
 
 

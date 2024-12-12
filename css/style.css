@@ -31,6 +31,9 @@ header .navbar-brand img{
     font-size: 14px;
 }
 
+tbody tr:hover td{
+    background-color: #6c757d18;
+}
 
 
 
